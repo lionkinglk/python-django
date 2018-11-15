@@ -1,3 +1,10 @@
-# My Awesome Book
+# Django零基础到项目实战-学习笔记
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+腾讯课堂--[Django零基础到项目实战](https://ke.qq.com/course/308515)
+
+**课程特色：**
+
+本课程的目标是学会使用Django框架的基础使用。与其他Django基础课程不同的是，这个课程每个知识点都讲解非常仔细，知其然也知其所以然，清楚的知道自己写的每一行代码代表的是什么意思。
+
+其中包含虚拟环境的使用、Django URL与视图、Django模板语法详解、Django数据库及其复杂查询操作、表单、node.js、npm、gulp、项目实战等。让你轻松学会Django的各种使用技巧！
+
