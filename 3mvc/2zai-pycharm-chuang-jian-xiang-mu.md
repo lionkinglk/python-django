@@ -24,5 +24,3 @@ ALLOWED_HOSTS = [*]
 
 
 
-
-
