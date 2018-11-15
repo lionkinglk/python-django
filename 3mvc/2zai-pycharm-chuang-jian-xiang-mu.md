@@ -10,5 +10,19 @@
 
 运行项目\(右上角绿色按钮\)
 
-![](/assets/pycharm-zsb-run.png)
+![](/assets/pycharm-zsb-run.png)IP及端口设置（右上角zsb倒三角，edit configuration）
+
+Host：0.0.0.0  Port：8000
+
+![](/assets/pycharm_configuration.png)
+
+同时，更改settings.py下的
+
+```
+ALLOWED_HOSTS = [*]
+```
+
+
+
+
 
