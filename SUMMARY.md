@@ -15,4 +15,5 @@
 * [三、第一个django项目](3mvc.md)
   * [1.命令行方式创建](3mvc/1ming-ling-xing-fang-shi-chuang-jian.md)
   * [2.在pycharm创建项目](3mvc/2zai-pycharm-chuang-jian-xiang-mu.md)
+  * 3.项目结构介绍
 

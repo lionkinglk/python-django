@@ -40,6 +40,38 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
+指定端口
+
+```
+(zsb-env) d:\python\envs\zsb-env\zsb>python manage.py runserver 9000
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+November 15, 2018 - 15:34:47
+Django version 2.1.3, using settings 'zsb.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CTRL-BREAK.
+```
+
+允许其他电脑访问，需指定IP 0.0.0.0
+
+```
+(zsb-env) d:\python\envs\zsb-env\zsb>python manage.py runserver 0.0.0.0:7000
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+November 15, 2018 - 15:36:14
+Django version 2.1.3, using settings 'zsb.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CTRL-BREAK.
+```
+
 ### 浏览器中预览![](/assets/django_default_page.png)
 
 ```
