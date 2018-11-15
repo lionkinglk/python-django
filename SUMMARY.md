@@ -14,4 +14,5 @@
   * [3.MVC编程模式](1an-zhuang-python3-7-1/3mvc.md)
   * [4.第一个django项目](1an-zhuang-python3-7-1/4di-yi-ge-django-xiang-mu.md)
 * [三、第一个django项目](3mvc.md)
+  * [1.命令行方式创建](3mvc/1ming-ling-xing-fang-shi-chuang-jian.md)
 
