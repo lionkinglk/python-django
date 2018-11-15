@@ -17,4 +17,5 @@
   * [2.在pycharm创建项目](3mvc/2zai-pycharm-chuang-jian-xiang-mu.md)
   * [3.项目结构介绍](3mvc/3xiang-mu-jie-gou-jie-shao.md)
   * [4.project和app的关系](3mvc/4projecthe-app-de-guan-xi.md)
+  * 5.视图与url分发器
 
