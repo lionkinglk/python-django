@@ -12,5 +12,6 @@
   * [1.web服务器与应用服务器](1an-zhuang-python3-7-1/1webfu-wu-qi.md)
   * [2.django框架](1an-zhuang-python3-7-1/2djangokuang-jia.md)
   * [3.MVC编程模式](1an-zhuang-python3-7-1/3mvc.md)
-* [3.MVC](3mvc.md)
+  * [4.第一个django项目](1an-zhuang-python3-7-1/4di-yi-ge-django-xiang-mu.md)
+* [三、第一个django项目](3mvc.md)
 
