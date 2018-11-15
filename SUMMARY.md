@@ -8,5 +8,5 @@
   * [4.下载安装pycharm](chapter1/4xia-zai-an-zhuang-pycharm.md)
   * [5.数据库MySQL](chapter1/5shu-ju-ku-mysql.md)
   * [6.安装pymysql库](chapter1/6an-zhuang-pymysql-ku.md)
-* [1.安装python3.7.1](1an-zhuang-python3-7-1.md)
+* [二、基本架构理念](1an-zhuang-python3-7-1.md)
 
