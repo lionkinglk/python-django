@@ -43,13 +43,11 @@ Collecting virtualenv (from virtualenvwrapper-win)
 Installing collected packages: virtualenv, virtualenvwrapper-win
   Running setup.py install for virtualenvwrapper-win ... done
 Successfully installed virtualenv-16.1.0 virtualenvwrapper-win-1.2.5
-
-
 ```
 
 新建系统环境变量：WORKON\_HOME     d:\python\envs\
 
-重启CMD 
+重启CMD
 
 创建虚拟环境：mkvirtualenv zsb-env
 
