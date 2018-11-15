@@ -9,4 +9,8 @@
   * [5.数据库MySQL](chapter1/5shu-ju-ku-mysql.md)
   * [6.安装pymysql库](chapter1/6an-zhuang-pymysql-ku.md)
 * [二、基本架构理念](1an-zhuang-python3-7-1.md)
+  * [1.web服务器与应用服务器](1an-zhuang-python3-7-1/1webfu-wu-qi.md)
+  * [2.django框架](1an-zhuang-python3-7-1/2djangokuang-jia.md)
+  * [3.MVC编程模式](1an-zhuang-python3-7-1/3mvc.md)
+* [3.MVC](3mvc.md)
 
