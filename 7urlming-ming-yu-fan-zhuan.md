@@ -45,6 +45,8 @@ def search(request):
 
 当有多个app时，在各个应用中，可以建立urls.py，如果多个应用的url命名重复时，在反转url时需要指定url所在的命名空间
 
+在'app'的’urls.py'中定义一个变量app\_name，即可指定此应用的命名空间
+
 ```
 app_name='namestring'
 
