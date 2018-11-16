@@ -46,7 +46,7 @@ urlpatterns = [
 </html>
 ```
 
-此时访问[http://127.0.0.1:8000/，会返回错误](http://127.0.0.1:8000/，会返回错误)
+此时访问http://127.0.0.1:8000/，会返回错误
 
 ```
 TemplateDoesNotExist at /
@@ -83,6 +83,8 @@ django.template.loaders.app_directories.Loader: D:\python\envs\zsb-env\lib\site-
 django.template.loaders.app_directories.Loader: D:\python\envs\zsb-env\lib\site-packages\django\contrib\auth\templates\index.html (Source does not exist)
 Traceback Switch to copy-and-paste view
 ```
+
+### 模板路径配置
 
 应该先在zsb/settings.py中指定模板文件的位置
 
@@ -132,7 +134,6 @@ INSTALLED_APPS = [
 ```
 'DIRS': [os.path.join(BASE_DIR, 'templates')],
 'APP_DIRS': True,
-
 ```
 
 
