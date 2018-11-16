@@ -82,7 +82,6 @@ Using engine django:
 django.template.loaders.app_directories.Loader: D:\python\envs\zsb-env\lib\site-packages\django\contrib\admin\templates\index.html (Source does not exist)
 django.template.loaders.app_directories.Loader: D:\python\envs\zsb-env\lib\site-packages\django\contrib\auth\templates\index.html (Source does not exist)
 Traceback Switch to copy-and-paste view
-
 ```
 
 应该先在zsb/settings.py中指定模板文件的位置
@@ -107,6 +106,33 @@ TEMPLATES = [
 
 ```
 os.path.join(BASE_DIR, 'templates')
+```
+
+如果在zsb/settings.py指定了安装的app，且
+
+```
+'APP_DIRS': True,
+```
+
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+```
+
+则会在已经安装了的app目录下去寻找模板文件。
+
+寻找模板的优先级顺序，指定的目录DIRS &gt; 已安装app目录APP\_DIRS
+
+```
+'DIRS': [os.path.join(BASE_DIR, 'templates')],
+'APP_DIRS': True,
+
 ```
 
 
