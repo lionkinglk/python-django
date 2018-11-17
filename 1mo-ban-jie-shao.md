@@ -46,7 +46,7 @@ urlpatterns = [
 </html>
 ```
 
-此时访问http://127.0.0.1:8000/，会返回错误
+此时访问http://127.0.0.1:8000/，会返回错误，找不到该模板文件
 
 ```
 TemplateDoesNotExist at /
