@@ -1,5 +1,17 @@
 # 3.DTL常用标签
 
+在index.html模板文件中，输入标签时，可以使用tab快捷键
+
+如 输入 if，再按tab键
+
+即可自动补充完整代码段：
+
+```
+    {% if 光标位于此处等待进一步输入 %}
+    
+    {% endif %}
+```
+
 ### if标签
 
 可以使用if...elif...else...endif
@@ -77,11 +89,47 @@ def index(request):
 
 ### for...in...标签
 
+```
+from django.shortcuts import render
+# Create your views here.
 
 
+def index(request):
+    context = {
+        'books': ['三国演义',
+                  '西游记',
+                  '红楼梦',
+                  '水浒传']
+    }
+    return render(request, 'index.html', context=context)
+```
 
+```
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>渲染模板</title>
+</head>
+<body>
+    <ul>
+        {% for book in books %}
+            <li>{{ book }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+```
 
+反向遍历 reversed
 
+```
+    <ul>
+        {% for book in books reversed %}
+            <li>{{ book }}</li>
+        {% endfor %}
+    </ul>
+```
 
 
 
