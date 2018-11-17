@@ -174,7 +174,7 @@ def index(request):
 </html>
 ```
 
-for.in..empty...endfor如果没有任何值，则显示empty中的内容
+for...in..empty...endfor如果没有任何值，则显示empty中的内容
 
 ```
 <!DOCTYPE html>
