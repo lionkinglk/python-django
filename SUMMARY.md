@@ -22,4 +22,5 @@
   * [7.url命名与反转](7urlming-ming-yu-fan-zhuan.md)
 * 四、模板
   * [1.模板介绍](1mo-ban-jie-shao.md)
+  * [2.模板中使用变量](2mo-ban-zhong-shi-yong-bian-liang.md)
 
