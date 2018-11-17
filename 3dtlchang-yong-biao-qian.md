@@ -185,26 +185,81 @@ def index(request):
 </html>
 ```
 
-预览：
+DTL中for中提供的一些变量：
+
+forloop.counter：当前循环的下标。以1作为起始值。
+
+forloop.counter0：当前循环的下标。以0作为起始值。
+
+forloop.revcounter：当前循环的反向下标值。比如列表有5个元素，那么第一次遍历这个属性是等于5，第二次是4，以此类推。并且是以1作为最后一个元素的下标。
+
+forloop.revcounter0：类似于forloop.revcounter。不同的是最后一个元素的下标是从0开始。
+
+forloop.first：是否是第一次遍历。
+
+forloop.last：是否是最后一次遍历。
+
+forloop.parentloop：如果有多个循环嵌套，那么这个属性代表的是上一级的for循环。
+
+```
+from django.shortcuts import render
+# Create your views here.
 
 
+def index(request):
+    context = {
+        'authors': [
+            {'name': '施耐庵',
+             'age': 80,
+             'sex': '男'},
+            {'name': '罗贯中',
+             'age': 90,
+             'sex': '男'},
+            {'name': '某女女',
+             'age': 18,
+             'sex': '女'}
+        ]
+    }
+    return render(request, 'index.html', context=context)
+```
 
-* 水浒传
-* 红楼梦
-* 西游记
-* 三国演义
-
-* name
-* age
-* sex
-
-* 施耐庵
-* 80
-* 男
-
-* name:施耐庵
-* age:80
-* sex:男
+```
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>渲染模板</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>NO.</td>
+                <td>name</td>
+                <td>age</td>
+                <td>sex</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for author in authors %}
+                {% if forloop.first %}
+                    <tr style="background-color: aqua">
+                {% elif forloop.last %}
+                    <tr style="background-color: palevioletred">
+                {% else %}
+                    <tr>
+                {% endif %}
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ author.name }}</td>
+                        <td>{{ author.age }}</td>
+                        <td>{{ author.sex }}</td>
+                    </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+```
 
 
 
