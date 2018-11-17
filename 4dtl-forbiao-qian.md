@@ -19,7 +19,7 @@ def index(request):
 
 ```
 <!DOCTYPE html>
-<html lang="zh_cn">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>渲染模板</title>
@@ -68,7 +68,7 @@ def index(request):
 
 ```
 <!DOCTYPE html>
-<html lang="zh_cn">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>渲染模板</title>
@@ -138,7 +138,7 @@ def index(request):
 
 ```
 <!DOCTYPE html>
-<html lang="zh_cn">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>渲染模板</title>
@@ -178,7 +178,7 @@ for...in..empty...endfor如果没有任何值，则显示empty中的内容
 
 ```
 <!DOCTYPE html>
-<html lang="zh_cn">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>渲染模板</title>

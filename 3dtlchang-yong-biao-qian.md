@@ -32,7 +32,7 @@ def index(request):
 
 ```
 <!DOCTYPE html>
-<html lang="zh_cn">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>渲染模板</title>
@@ -70,7 +70,7 @@ def index(request):
 
 ```
 <!DOCTYPE html>
-<html lang="zh_cn">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>渲染模板</title>
