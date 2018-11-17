@@ -8,7 +8,7 @@
 
 ```
     {% if 光标位于此处等待进一步输入 %}
-    
+
     {% endif %}
 ```
 
@@ -130,6 +130,83 @@ def index(request):
         {% endfor %}
     </ul>
 ```
+
+可以使用python中对字典属性，items,keys,values
+
+```
+from django.shortcuts import render
+# Create your views here.
+
+
+def index(request):
+    context = {
+        'books': ['三国演义',
+                  '西游记',
+                  '红楼梦',
+                  '水浒传'],
+        'author': {
+            'name': '施耐庵',
+            'age': 80,
+            'sex': '男'
+        }
+    }
+    return render(request, 'index.html', context=context)
+```
+
+```
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>渲染模板</title>
+</head>
+<body>
+    <ul>
+        {% for book in books reversed %}
+            <li>{{ book }}</li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for key in author.keys %}
+            <li>{{ key }}</li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for value in author.values %}
+            <li>{{ value }}</li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for key,value in author.items %}
+            <li>{{ key}}:{{value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+```
+
+预览：
+
+
+
+* 水浒传
+* 红楼梦
+* 西游记
+* 三国演义
+
+* name
+* age
+* sex
+
+* 施耐庵
+* 80
+* 男
+
+* name:施耐庵
+* age:80
+* sex:男
+
+
 
 
 
