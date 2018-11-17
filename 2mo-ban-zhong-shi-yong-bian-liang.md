@@ -148,7 +148,7 @@ def index(request):
 
 ```
 
-使用{{ books.0 }}{{ stores.1 }}渲染
+使用渲染
 
 得到：三国演义 
 
