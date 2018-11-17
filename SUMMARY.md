@@ -23,4 +23,5 @@
 * 四、模板
   * [1.模板介绍](1mo-ban-jie-shao.md)
   * [2.模板中使用变量](2222.md)
+  * [3.DTL常用标签](3dtlchang-yong-biao-qian.md)
 
