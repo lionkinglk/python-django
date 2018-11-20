@@ -26,5 +26,6 @@
   * [4.DTL-for...in标签](4dtl-forbiao-qian.md)
   * [5.url标签](5urlbiao-qian.md)
 * [五、数据库](wu-3001-shu-ju-ku.md)
-  * [1.数据库连接](wu-3001-shu-ju-ku/1shu-ju-ku-lian-jie.md)
+  * [1.配置数据库连接](wu-3001-shu-ju-ku/1shu-ju-ku-lian-jie.md)
+  * [2.SQL语句操作数据库](wu-3001-shu-ju-ku/2sqlyu-ju-cao-zuo-shu-ju-ku.md)
 
