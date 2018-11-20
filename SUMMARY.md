@@ -7,7 +7,6 @@
   * [3.在虚拟环境下安装django](chapter1/3zai-xu-ni-huan-jing-xia-an-zhuang-django.md)
   * [4.下载安装pycharm](chapter1/4xia-zai-an-zhuang-pycharm.md)
   * [5.数据库MySQL](chapter1/5shu-ju-ku-mysql.md)
-  * [6.安装pymysql库](chapter1/6an-zhuang-pymysql-ku.md)
 * [二、基本架构理念](1an-zhuang-python3-7-1.md)
   * [1.web服务器与应用服务器](1an-zhuang-python3-7-1/1webfu-wu-qi.md)
   * [2.django框架](1an-zhuang-python3-7-1/2djangokuang-jia.md)
@@ -26,4 +25,6 @@
   * [3.DTL-if标签](3dtlchang-yong-biao-qian.md)
   * [4.DTL-for...in标签](4dtl-forbiao-qian.md)
   * [5.url标签](5urlbiao-qian.md)
+* [五、数据库](wu-3001-shu-ju-ku.md)
+  * [1.数据库连接](wu-3001-shu-ju-ku/1shu-ju-ku-lian-jie.md)
 
