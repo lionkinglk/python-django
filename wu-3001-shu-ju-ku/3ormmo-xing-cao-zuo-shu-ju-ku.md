@@ -121,5 +121,35 @@ Running migrations:
 (zsb-env) d:\python\envs\zsb-env\zsb>
 ```
 
+那么，在mySQL管理中，可以看到已经生成的表及结构：
+
+![](/assets/orm_mysql_migrate.png)在models.py中，另建一个类
+
+```
+class Publishers(models.Model):
+    # id字段会自动添加
+    name = models.CharField(max_length=100, null=False)
+    address = models.CharField(max_length=100, null=False)
+```
+
+再使用命令生成迁移脚本，并映射到数据库
+
+```
+(zsb-env) d:\python\envs\zsb-env\zsb>python manage.py makemigrations
+Migrations for 'orm':
+  orm\migrations\0002_publishers.py
+    - Create model Publishers
+
+(zsb-env) d:\python\envs\zsb-env\zsb>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, orm, sessions
+Running migrations:
+  Applying orm.0002_publishers... OK
+
+(zsb-env) d:\python\envs\zsb-env\zsb>
+```
+
+
+
 
 
