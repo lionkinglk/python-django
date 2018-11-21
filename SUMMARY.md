@@ -27,5 +27,6 @@
   * [5.url标签](5urlbiao-qian.md)
 * [五、数据库](wu-3001-shu-ju-ku.md)
   * [1.配置数据库连接](wu-3001-shu-ju-ku/1shu-ju-ku-lian-jie.md)
-  * [2.SQL语句操作数据库](wu-3001-shu-ju-ku/2sqlyu-ju-cao-zuo-shu-ju-ku.md)
+  * [2.原生SQL语句操作数据库](wu-3001-shu-ju-ku/2sqlyu-ju-cao-zuo-shu-ju-ku.md)
+  * [3.ORM模型操作数据库](wu-3001-shu-ju-ku/3ormmo-xing-cao-zuo-shu-ju-ku.md)
 
