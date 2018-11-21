@@ -28,5 +28,6 @@
 * [五、数据库](wu-3001-shu-ju-ku.md)
   * [1.配置数据库连接](wu-3001-shu-ju-ku/1shu-ju-ku-lian-jie.md)
   * [2.原生SQL语句操作数据库](wu-3001-shu-ju-ku/2sqlyu-ju-cao-zuo-shu-ju-ku.md)
-  * [3.ORM模型操作数据库](wu-3001-shu-ju-ku/3ormmo-xing-cao-zuo-shu-ju-ku.md)
+  * [3.ORM模型介绍](wu-3001-shu-ju-ku/3ormmo-xing-cao-zuo-shu-ju-ku.md)
+  * [4.ORM模型增删改查操作](wu-3001-shu-ju-ku/4ormmo-xing-zeng-shan-gai-cha-cao-zuo.md)
 
